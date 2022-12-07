@@ -1,7 +1,7 @@
 # Tatsiana Tsiarentsyeva
 
 ## Contact information:
-   - Phone: +375-29-290-00-00
+   - Phone: +375-29-200-00-00
    - Discord: @TayaTerry
    - Telegram: @tayeterry
 
