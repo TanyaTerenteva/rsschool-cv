@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class = "header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#Contacts" class="nav_link">Contacts</a></li>
+                    <li class="nav_item"><a href="#Summary" class="nav_link">Summary</a></li>
+                    <li class="nav_item"><a href="#Skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#Code" class="nav_link">Code</a></li>
+                    <li class="nav_item"><a href="#Projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#Education" class="nav_link">Education</a></li>
+                    <li class="nav_item"><a href="#English" class="nav_link">English</a></li>
+                </ul>
+            </nav>  
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile">
+                <img src="../rsschool-cv/assets/img/photo1.jpg" alt="foto" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Tatyana Terenteva</h1>
+                    <h3 class="section-subtitle">Junior Frontend Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="Contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Phone: +375 29 222 22 222</li>
+                    <li>Email: tayeterry@gmail.com</li>
+                    <li>Discord: @TayaTerry</li>
+                    <li>Telegram: @tayaterry</li>
+                </ul>
+            </section>
+            <section class="section" id="Summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Successful accountant with more than 10 years of professional experience. Seeking a career change to frontend developer position. I am an enthusiastic, self-motivated, reliable, responsible and hard working person.</p>
+            </section>
+            <section class="section" id="Skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML5, CSS, JavaScript</li>
+                    <li>Angular</li>
+                    <li>GIT</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+            <section class="section" id="Code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+function highAndLow(numbers){
+const arr = numbers.split(' ').sort((a,b) 
+    => (+a)-(+b));
+    return `${arr[arr.length-1]} ${arr[0]}`;
+} 
+                    </code>                             
+                </pre>
+            </section>   
+            <section class="section" id="Projects">
+                <h2 class="section-title">Project</h2>
+                <a href="https://tanyaterenteva.github.io/rsschool-cv/cv" class="link">RSschool-cv</a>
+            </section> 
+            <section class="section" id="Education">
+                <h2 class="section-title">Education</h2>
+                <p>Vitebsk State University</p>
+            </section>
+            <section class="section" id="English">
+                <h2 class="section-title">English</h2>
+                <p>Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                © 2022
+                <a href="https://github.com/TanyaTerenteva" class="github nav_link">TATYANATERENTEVA</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>     
+            </div>
+    </footer>
     
 </body>
 </html>
