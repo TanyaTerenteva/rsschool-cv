@@ -142,6 +142,9 @@ h1 {
     color: #3b221c;
     text-decoration: none;
 }
+.link:hover, link:active {
+    opacity: .75;    
+}
 
 .footer {
     background-color: #856e61;
